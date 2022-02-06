@@ -8,8 +8,6 @@ const TMDB_Routes = require('./routes/tmdb')
 const User_Routes = require('./routes/user')
 const List_Routes = require('./routes/list')
 
-console.log("hi")
-
 const port = process.env.PORT || 3000;
 
 app.use(express.json())
